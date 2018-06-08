@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfA-99-NoK">
+                                <rect key="frame" x="138" y="704" width="138" height="32"/>
+                                <state key="normal" title="Start Your Food Trip"/>
+                                <connections>
+                                    <segue destination="zdv-Ik-e01" kind="show" id="AaC-qf-tLV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CfA-99-NoK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Kb-FG-b6m"/>
+                            <constraint firstItem="CfA-99-NoK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Wge-wM-KyG"/>
+                            <constraint firstItem="CfA-99-NoK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="420" id="s7P-cx-bLm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126.08695652173914" y="130.43478260869566"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YZQ-J1-yGo">
+            <objects>
+                <viewController id="zdv-Ik-e01" customClass="ViewController" customModule="Ufoodie_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VnB-W8-oKJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOj-Yp-nrK">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aSs-Jj-LU0">
+                                <rect key="frame" x="0.0" y="44" width="375" height="2"/>
+                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aSs-Jj-LU0" firstAttribute="trailing" secondItem="gOj-Yp-nrK" secondAttribute="trailing" id="FeN-x7-7Ed"/>
+                            <constraint firstItem="TGZ-JK-epI" firstAttribute="trailing" secondItem="gOj-Yp-nrK" secondAttribute="trailing" id="PNP-l8-b3o"/>
+                            <constraint firstItem="gOj-Yp-nrK" firstAttribute="top" secondItem="TGZ-JK-epI" secondAttribute="top" id="R9K-BN-j2P"/>
+                            <constraint firstItem="gOj-Yp-nrK" firstAttribute="leading" secondItem="TGZ-JK-epI" secondAttribute="leading" id="b0i-gV-SA7"/>
+                            <constraint firstItem="TGZ-JK-epI" firstAttribute="bottom" secondItem="gOj-Yp-nrK" secondAttribute="bottom" id="dNx-Md-KkT"/>
+                            <constraint firstItem="aSs-Jj-LU0" firstAttribute="top" secondItem="gOj-Yp-nrK" secondAttribute="top" id="gxy-Pi-H5k"/>
+                            <constraint firstItem="aSs-Jj-LU0" firstAttribute="leading" secondItem="gOj-Yp-nrK" secondAttribute="leading" id="s76-3X-F1m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TGZ-JK-epI"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FeN-x7-7Ed"/>
+                                <exclude reference="gxy-Pi-H5k"/>
+                                <exclude reference="s76-3X-F1m"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="FeN-x7-7Ed"/>
+                                <include reference="gxy-Pi-H5k"/>
+                                <include reference="s76-3X-F1m"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="ufoodProgress" destination="aSs-Jj-LU0" id="npK-x1-yoe"/>
+                        <outlet property="ufoodWebview" destination="gOj-Yp-nrK" id="Wjf-C8-rFd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NmL-qN-C4Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1128.985507246377" y="129.61956521739131"/>
+        </scene>
+    </scenes>
+</document>
