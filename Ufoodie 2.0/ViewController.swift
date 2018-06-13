@@ -22,16 +22,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ufoodWebview.scrollView.bounces = false
+        
         blurView.layer.cornerRadius = 15
         
         sideViewConstraint.constant = -175
         
         
-        let url = URL(string: "https://ufoodie.com.au/price_plan/basic/")
+        let url = URL(string: "https://ufoodie.com.au/")
         let request = URLRequest(url: url!)
         ufoodWebview.load(request)
         ufoodProgress.sizeToFit()
         ufoodWebview.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
+        
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {

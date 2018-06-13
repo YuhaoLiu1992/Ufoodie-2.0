@@ -13,6 +13,7 @@
 		6976266420CA7C620063589D /* Ufoodie_2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6976266220CA7C620063589D /* Ufoodie_2_0.xcdatamodeld */; };
 		6976266620CA7C620063589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6976266520CA7C620063589D /* Assets.xcassets */; };
 		6976266920CA7C620063589D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6976266720CA7C620063589D /* LaunchScreen.storyboard */; };
+		6976267120D1038D0063589D /* AU FOOD Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6976267020D1038D0063589D /* AU FOOD Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6976266520CA7C620063589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6976266820CA7C620063589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6976266A20CA7C620063589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6976267020D1038D0063589D /* AU FOOD Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AU FOOD Logo.png"; path = "../../../Desktop/Ufoodie materials/Logo/AU FOOD Logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6976265B20CA7C620063589D /* AppDelegate.swift */,
 				6976265D20CA7C620063589D /* ViewController.swift */,
 				6976265F20CA7C620063589D /* Main.storyboard */,
+				6976267020D1038D0063589D /* AU FOOD Logo.png */,
 				6976266520CA7C620063589D /* Assets.xcassets */,
 				6976266720CA7C620063589D /* LaunchScreen.storyboard */,
 				6976266A20CA7C620063589D /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				6976266920CA7C620063589D /* LaunchScreen.storyboard in Resources */,
 				6976266620CA7C620063589D /* Assets.xcassets in Resources */,
+				6976267120D1038D0063589D /* AU FOOD Logo.png in Resources */,
 				6976266120CA7C620063589D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
