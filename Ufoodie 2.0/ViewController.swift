@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         sideViewConstraint.constant = -175
         
         
-        let url = URL(string: "https://ufoodie.com.au")
+        let url = URL(string: "https://ufoodie.com.au/price_plan/basic/")
         let request = URLRequest(url: url!)
         ufoodWebview.load(request)
         ufoodProgress.sizeToFit()
