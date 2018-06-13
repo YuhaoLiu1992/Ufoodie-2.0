@@ -79,7 +79,7 @@
                                                         <constraint firstAttribute="height" constant="40" id="18u-kT-QTf"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <state key="normal" title="Home">
+                                                    <state key="normal" title="Back ">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
@@ -95,6 +95,41 @@
                                                         <constraint firstAttribute="height" constant="40" id="2Kc-az-NWA"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <state key="normal" title="Home">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="15"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cP-Te-HmG">
+                                                    <rect key="frame" x="8" y="106" width="159.33333333333334" height="40"/>
+                                                    <color key="backgroundColor" red="0.23432613129999999" green="0.85270943899999996" blue="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="9RX-xm-n47"/>
+                                                        <constraint firstAttribute="height" constant="40" id="WpB-BM-6RP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <state key="normal" title="Contact Us">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="15"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOd-fc-eHX">
+                                                    <rect key="frame" x="8" y="154" width="159.33333333333334" height="40"/>
+                                                    <color key="backgroundColor" red="0.23432613129999999" green="0.85270943899999996" blue="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="UOn-tr-qOP"/>
+                                                        <constraint firstAttribute="height" constant="40" id="Xb0-QZ-spk"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="qUK-lt-75J"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <state key="normal" title="About Us">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -106,12 +141,18 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="7cP-Te-HmG" secondAttribute="trailing" constant="8" id="8KG-gm-6K8"/>
                                                 <constraint firstAttribute="trailing" secondItem="MiF-At-WTC" secondAttribute="trailing" constant="10" id="H2b-A7-CaI"/>
                                                 <constraint firstItem="uWf-eS-DRZ" firstAttribute="leading" secondItem="6N3-JE-CGJ" secondAttribute="leading" constant="8" id="IQL-5p-DL4"/>
                                                 <constraint firstItem="MiF-At-WTC" firstAttribute="leading" secondItem="6N3-JE-CGJ" secondAttribute="leading" constant="10" id="PUV-wW-oRw"/>
+                                                <constraint firstItem="sOd-fc-eHX" firstAttribute="leading" secondItem="6N3-JE-CGJ" secondAttribute="leading" constant="8" id="Vo3-fU-w6K"/>
+                                                <constraint firstItem="sOd-fc-eHX" firstAttribute="top" secondItem="7cP-Te-HmG" secondAttribute="bottom" constant="8" id="YrY-ah-BFb"/>
+                                                <constraint firstItem="7cP-Te-HmG" firstAttribute="leading" secondItem="6N3-JE-CGJ" secondAttribute="leading" constant="8" id="a7F-rA-DyR"/>
                                                 <constraint firstAttribute="trailing" secondItem="uWf-eS-DRZ" secondAttribute="trailing" constant="8" id="dxU-yP-BN6"/>
                                                 <constraint firstItem="MiF-At-WTC" firstAttribute="top" secondItem="6N3-JE-CGJ" secondAttribute="top" constant="10" id="gVK-PG-aD5"/>
+                                                <constraint firstItem="7cP-Te-HmG" firstAttribute="top" secondItem="uWf-eS-DRZ" secondAttribute="bottom" constant="8" id="kse-Z4-mqZ"/>
                                                 <constraint firstItem="uWf-eS-DRZ" firstAttribute="top" secondItem="MiF-At-WTC" secondAttribute="bottom" constant="8" id="qBH-eq-0o4"/>
+                                                <constraint firstAttribute="trailing" secondItem="sOd-fc-eHX" secondAttribute="trailing" constant="8" id="tUj-hh-bDM"/>
                                             </constraints>
                                         </view>
                                         <blurEffect style="light"/>
