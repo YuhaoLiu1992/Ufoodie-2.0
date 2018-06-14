@@ -13,10 +13,16 @@
 		6976266120CA7C620063589D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6976265F20CA7C620063589D /* Main.storyboard */; };
 		6976266420CA7C620063589D /* Ufoodie_2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6976266220CA7C620063589D /* Ufoodie_2_0.xcdatamodeld */; };
 		6976266620CA7C620063589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6976266520CA7C620063589D /* Assets.xcassets */; };
+<<<<<<< HEAD
 		6976267120D1038D0063589D /* AU FOOD Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6976267020D1038D0063589D /* AU FOOD Logo.png */; };
 		6976267320D224A10063589D /* WLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976267220D224A10063589D /* WLButton.swift */; };
 		6976267B20D23BCA0063589D /* Home-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6976267A20D23BCA0063589D /* Home-Button.png */; };
 		6976267D20D23DE00063589D /* Close-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6976267C20D23DE00063589D /* Close-Button.png */; };
+=======
+		6976266920CA7C620063589D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6976266720CA7C620063589D /* LaunchScreen.storyboard */; };
+		9E42946420D10B7200188C82 /* AU FOOD Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E42946320D10B7100188C82 /* AU FOOD Logo.png */; };
+		9E42946620D225A100188C82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E42946520D225A100188C82 /* GoogleService-Info.plist */; };
+>>>>>>> origin/master
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +34,15 @@
 		6976266320CA7C620063589D /* Ufoodie_2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ufoodie_2_0.xcdatamodel; sourceTree = "<group>"; };
 		6976266520CA7C620063589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6976266A20CA7C620063589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6976267020D1038D0063589D /* AU FOOD Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AU FOOD Logo.png"; path = "../../../Desktop/Ufoodie materials/Logo/AU FOOD Logo.png"; sourceTree = "<group>"; };
 		6976267220D224A10063589D /* WLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLButton.swift; sourceTree = "<group>"; };
 		6976267A20D23BCA0063589D /* Home-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-Button.png"; path = "../../../Desktop/Ufoodie materials/images/Home-Button.png"; sourceTree = "<group>"; };
 		6976267C20D23DE00063589D /* Close-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Close-Button.png"; path = "../../../Desktop/Ufoodie materials/images/Close-Button.png"; sourceTree = "<group>"; };
+=======
+		9E42946320D10B7100188C82 /* AU FOOD Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AU FOOD Logo.png"; sourceTree = "<group>"; };
+		9E42946520D225A100188C82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+>>>>>>> origin/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +75,21 @@
 		6976265A20CA7C620063589D /* Ufoodie 2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				9E42946320D10B7100188C82 /* AU FOOD Logo.png */,
 				6976265B20CA7C620063589D /* AppDelegate.swift */,
 				6976265D20CA7C620063589D /* ViewController.swift */,
 				6976265F20CA7C620063589D /* Main.storyboard */,
-				6976267020D1038D0063589D /* AU FOOD Logo.png */,
 				6976266520CA7C620063589D /* Assets.xcassets */,
 				694E4D5320D24131003944EB /* Phone-Button.png */,
 				6976267C20D23DE00063589D /* Close-Button.png */,
 				6976267A20D23BCA0063589D /* Home-Button.png */,
 				6976266A20CA7C620063589D /* Info.plist */,
 				6976266220CA7C620063589D /* Ufoodie_2_0.xcdatamodeld */,
+<<<<<<< HEAD
 				6976267220D224A10063589D /* WLButton.swift */,
+=======
+				9E42946520D225A100188C82 /* GoogleService-Info.plist */,
+>>>>>>> origin/master
 			);
 			path = "Ufoodie 2.0";
 			sourceTree = "<group>";
@@ -137,11 +152,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				6976267D20D23DE00063589D /* Close-Button.png in Resources */,
 				694E4D5420D24131003944EB /* Phone-Button.png in Resources */,
 				6976267B20D23BCA0063589D /* Home-Button.png in Resources */,
+=======
+				6976266920CA7C620063589D /* LaunchScreen.storyboard in Resources */,
+				9E42946420D10B7200188C82 /* AU FOOD Logo.png in Resources */,
+				9E42946620D225A100188C82 /* GoogleService-Info.plist in Resources */,
+>>>>>>> origin/master
 				6976266620CA7C620063589D /* Assets.xcassets in Resources */,
-				6976267120D1038D0063589D /* AU FOOD Logo.png in Resources */,
 				6976266120CA7C620063589D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
