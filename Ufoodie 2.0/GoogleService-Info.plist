@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>69291141204-qpuqj87v21toc7vq0eq6hulqcok9vnd0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.69291141204-qpuqj87v21toc7vq0eq6hulqcok9vnd0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD341TxpE_c4xSwHDdoyxOKgVNYKwH1mFk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>69291141204</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>au.com.ufoodie.UFOODIE</string>
+	<key>PROJECT_ID</key>
+	<string>ufoodie-b6311</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ufoodie-b6311.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:69291141204:ios:e3d85ca87d40e274</string>
+	<key>DATABASE_URL</key>
+	<string>https://ufoodie-b6311.firebaseio.com</string>
+</dict>
+</plist>
